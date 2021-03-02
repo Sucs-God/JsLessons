@@ -1,4 +1,4 @@
-// // Number
+// 1 Number
 // const num = 42 // integer
 // const float = 42.42 // float
 // const pow = 10e3
@@ -32,9 +32,29 @@
 // console.log(+(0.4 + 0.2).toFixed(1))
 // console.log(parseFloat((0.4 + 0.2).toFixed(1)))
 
-// BigInt
+// 2 BigInt
 // console.log(9007199254740991999999n - 900719925474099199999n)
 // console.log(-9007199254740991999999n)
 // console.log(-9007199254740991999999.23231n) // error
 
-console.log(10n - 4)
+// console.log(10n - 4) // error
+// console.log(parseInt(10n) - 4)
+// console.log(10n - BigInt(4))
+// console.log(5n / 2n) // 2n
+
+// 3 Math
+console.log(Math.E)
+console.log(Math.PI)
+
+console.log(Math.sqrt(25))
+console.log(Math.pow(5, 3))
+console.log(Math.abs(-42))
+console.log(Math.max(42, 12, 23, 11, 422))
+console.log(Math.min(42, 12, 23, 11, 422))
+console.log(Math.floor(4.9))
+console.log(Math.ceil(4.9))
+console.log(Math.round(4.9))
+console.log(Math.trunc(4.9))
+console.log(Math.random())
+
+// 4 Example
